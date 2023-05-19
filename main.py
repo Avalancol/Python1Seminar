@@ -33,7 +33,7 @@ m = int(input("Введите ширину шоколадки m: "))
 n = int(input("Введите высоту шоколадки n: "))
 k = int(input("Введите сколько нужно получить долек k: "))
 
-if k < m*n and m > 0 and n > 0 and (k % m == 0 or k % n == 0):
+if k < m*n and m > 0 and n > 0 and k > 0 and (k % m == 0 or k % n == 0):
     print("Это возможно.")
 else:
     print("Это невозможно")
